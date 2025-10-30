@@ -16,6 +16,7 @@ Ce dépôt se concentre sur la **Phase 0 – Mise en place et cadrage** :
 
 ## 🗂️ Structure du projet
 
+```bash
 agri-insight/
 ├── data/
 │ ├── raw/ # Données brutes IGN (non versionnées)
@@ -31,7 +32,7 @@ agri-insight/
 ├── .gitignore
 ├── README.md
 └── requirements.txt / pyproject.toml
-
+```
 
 
 ---
