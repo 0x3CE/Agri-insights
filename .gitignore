@@ -1,0 +1,61 @@
+# === Python standard ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.log
+*.tmp
+*.bak
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# === Données brutes & sorties ===
+data/raw/
+data/processed/
+data/*.zip
+data/*.shp
+data/*.dbf
+data/*.shx
+data/*.prj
+data/*.cpg
+data/*.geojson
+data/*.tif
+data/*.csv
+
+# Tu garderas uniquement tes scripts et notebooks, pas les fichiers lourds
+
+# === Jupyter notebooks metadata ===
+.ipynb_checkpoints
+*.nbconvert.ipynb
+
+# === IDE / OS ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# === Cache outils ===
+.cache/
+__pycache__/
+*.parquet
+*.feather
+
+# === Export/Render temporary files ===
+export/
+outputs/
+plots/
+reports/
+
+# === Optional: keep small demo GeoJSONs ===
+!data/demo_*.geojson
